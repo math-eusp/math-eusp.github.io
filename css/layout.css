@@ -426,7 +426,7 @@ fieldset[disabled] .btn-theme {
 
 .work .work-popup-content {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 0;
   right: 0;
   width: 730px;
