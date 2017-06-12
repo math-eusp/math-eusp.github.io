@@ -426,7 +426,7 @@ fieldset[disabled] .btn-theme {
 
 .work .work-popup-content {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 0;
   right: 0;
   width: 730px;
@@ -435,6 +435,7 @@ fieldset[disabled] .btn-theme {
   background: #fff;
   padding: 30px;
   margin: 0 auto;
+  overflow: visible;
   -webkit-transform: translate3d(0, -50%, 0);
   -moz-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
