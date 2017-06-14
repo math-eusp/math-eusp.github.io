@@ -958,6 +958,28 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
+  	[Text Formats]
+------------------------------------------------------------------*/
+.italic {
+  font-style: italic;
+}
+
+.oblique{
+  font-style: oblique;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+/*------------------------------------------------------------------
   	[Background Colors]
 ------------------------------------------------------------------*/
 .bg-color-base {
