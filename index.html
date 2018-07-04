@@ -49,11 +49,12 @@
         <div class="collapse navbar-collapse nav-collapse">
           <div class="menu-container">
             <ul class="nav navbar-nav navbar-nav-right">
-              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
-              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">Sobre</a></li>
-              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experiências</a></li>
-              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Exp. Profissionais</a></li>
-              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contato</a></li>
+              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body" data-mlr-text>Home</a></li>
+              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about" data-mlr-text>Sobre</a></li>
+              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience" data-mlr-text>Experiências</a></li>
+              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work" data-mlr-text>Exp. Profissionais</a></li>
+              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact" data-mlr-text>Contato</a></li>
+              <li class="js_nav-item nav-item"><select id="languageSelector"></select></li>
             </ul>
           </div>
         </div>
@@ -92,14 +93,13 @@
       <div class="row">
         <div class="col-sm-3 sm-margin-b-30">
           <div class="text-right sm-text-left">
-            <h2 class="margin-b-0">Sobre</h2>
+            <h2 class="margin-b-0" data-mlr-text>Sobre</h2>
           </div>
         </div>
         <div class="col-sm-8 col-sm-offset-1">
           <div class="margin-b-60">
-            <p>Olá, tudo bom?</p>
-            <p>Me chamo Matheus Pereira, trabalho com Técnologia da Informação desde 2010 e sou formado em Análise e Desenvolvimento de Sistemas pelas Escolas e Faculdades QI. No meio desta minha jornada passei por diversas experiências e pude adquirir
-              muito conhecimento, trabalhei com VB.NET, C#, Java, PHP, FrontEnd em geral, HanaXS além de alguns projetos para conhecimento em outras linguagens.</p>
+            <p data-mlr-text>Olá, tudo bom?</p>
+            <p data-mlr-text>Me chamo Matheus Pereira, trabalho com Técnologia da Informação desde 2010 e sou formado em Análise e Desenvolvimento de Sistemas pelas Escolas e Faculdades QI. No meio desta minha jornada passei por diversas experiências e pude adquirir muito conhecimento, trabalhei com VB.NET, C#, Java, PHP, FrontEnd em geral, HanaXS além de alguns projetos para conhecimento em outras linguagens.</p>
           </div>
           <!-- Progress Box -->
           <div class="progress-box">
@@ -132,8 +132,8 @@
               <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
             </div>
           </div>
-	  <div class="progress-box">
-            <h5>React <span class="color-heading pull-right">85%</span></h5>
+	        <div class="progress-box">
+            <h5>ReactJS <span class="color-heading pull-right">85%</span></h5>
             <div class="progress">
               <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
             </div>
@@ -152,7 +152,7 @@
         <div class="row">
           <div class="col-sm-3 sm-margin-b-30">
             <div class="text-right sm-text-left">
-              <h2 class="margin-b-0">Experiências</h2>
+              <h2 class="margin-b-0" data-mlr-text>Experiências</h2>
             </div>
           </div>
           <div class="col-sm-8 col-sm-offset-1">
@@ -164,7 +164,7 @@
                   </div>
                   <div class="service-info">
                     <h3>VB.NET/C#</h3>
-                    <p class="margin-b-5">2 anos programando .NET utilizando MVC e programação em camadas.</p>
+                    <p class="margin-b-5" data-mlr-text>2 anos programando .NET utilizando MVC e programação em camadas.</p>
                   </div>
                 </div>
               </div>
@@ -175,7 +175,7 @@
                   </div>
                   <div class="service-info">
                     <h3 class="color-white">Front-End</h3>
-                    <p class="color-white margin-b-5">2 anos como programador front-end dando manutenção e desenvolvendo novas funcionalidades</p>
+                    <p class="color-white margin-b-5" data-mlr-text>2 anos como programador front-end dando manutenção e desenvolvendo novas funcionalidades</p>
                   </div>
                 </div>
               </div>
@@ -186,7 +186,7 @@
                   </div>
                   <div class="service-info">
                     <h3>PHP/CakePHP</h3>
-                    <p class="margin-b-5">1 ano de expêriencia trabalhando com PHP e utilizando o framework CakePHP</p>
+                    <p class="margin-b-5" data-mlr-text>1 ano de expêriencia trabalhando com PHP e utilizando o framework CakePHP</p>
                   </div>
                 </div>
               </div>
@@ -205,8 +205,8 @@
       <div class="row">
         <div class="col-sm-3 sm-margin-b-30">
           <div class="text-right sm-text-left">
-            <h2 class="margin-b-0">Expêriencias Profissionais</h2>
-            <small class="visible-sm visible-xs">Clique nos Logos das Empresas para mais informações</small>
+            <h2 class="margin-b-0" data-mlr-text>Expêriencias Profissionais</h2>
+            <small class="visible-sm visible-xs" data-mlr-text>Clique nos Logos das Empresas para mais informações</small>
           </div>
         </div>
         <div class="col-sm-8 col-sm-offset-1">
@@ -221,18 +221,18 @@
                 </div>
                 <div class="work-popup-overlay">
                   <div class="work-popup-content">
-                    <a href="javascript:void(0);" class="work-popup-close">Fechar</a>
+                    <a href="javascript:void(0);" class="work-popup-close" data-mlr-text>Fechar</a>
                     <div class="margin-b-30">
                       <h3 class="margin-b-5">Laçador de Ofertas</h3>
-                      <span><strong>Desenvolvedor Fullstack</strong></span>
+                      <span><strong data-mlr-text>Desenvolvedor Fullstack</strong></span>
                       <br/>
-                      <span>15/10/2015 até 01/12/2016</span>
+                      <span data-mlr-text>15/10/2015 até 01/12/2016</span>
                     </div>
                     <div class="row">
                       <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                         <div class="margin-t-10 sm-margin-t-0">
-                          <p>Foi de fato minha primeira experiência como fullstack, desenvolviamos módulos de CMS para um cliente interno, foi tudo ao natural, conforme as tarefas chegavam o aprendizado vinha junto.</p>
-                          <p>Foram diversas experiências e foi um periodo de grande aprendizado, grande parte do que eu sei sobre programação Web eu aprendi lá.</p>
+                          <p data-mlr-text>Foi de fato minha primeira experiência como fullstack, desenvolviamos módulos de CMS para um cliente interno, foi tudo ao natural, conforme as tarefas chegavam o aprendizado vinha junto.</p>
+                          <p data-mlr-text>Foram diversas experiências e foi um periodo de grande aprendizado, grande parte do que eu sei sobre programação Web eu aprendi lá.</p>
                           <ul class="list-inline work-popup-tag">
                             <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://lacadordeofertas.com.br/">https://lacadordeofertas.com.br/</a></li>
                           </ul>
@@ -263,18 +263,18 @@
                 </div>
                 <div class="work-popup-overlay">
                   <div class="work-popup-content">
-                    <a href="javascript:void(0);" class="work-popup-close">Fechar</a>
+                    <a href="javascript:void(0);" class="work-popup-close" data-mlr-text>Fechar</a>
                     <div class="margin-b-30">
                       <h3 class="margin-b-5">Digicounter</h3>
-                      <span><strong>Analista Desenvolvedor C#</strong></span>
+                      <span><strong data-mlr-text>Analista Desenvolvedor C#</strong></span>
                       <br/>
-                      <span>28/04/2015 até 26/07/2015</span>
+                      <span data-mlr-text>28/04/2015 até 26/07/2015</span>
                     </div>
                     <div class="row">
                       <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                         <div class="margin-t-10 sm-margin-t-0">
-                          <p>O primeiro emprego como CLT a gente nunca esquece, aprimorei meus conhecimentos em C# e iniciei pela primeira vez um Aplicativo Android além de trabalhar com rastreamento via satelite.</p>
-                          <p>Gostei bastante para a primeira experiência,consegui absorver bastante coisa nova. Errei bastante mas aprendi muito com os erros.</p>
+                          <p data-mlr-text>O primeiro emprego como CLT a gente nunca esquece, aprimorei meus conhecimentos em C# e iniciei pela primeira vez um Aplicativo Android além de trabalhar com rastreamento via satelite.</p>
+                          <p data-mlr-text>Gostei bastante para a primeira experiência,consegui absorver bastante coisa nova. Errei bastante mas aprendi muito com os erros.</p>
                           <ul class="list-inline work-popup-tag">
                             <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://www.digicounter.com.br/">http://www.digicounter.com.br/</a></li>
                           </ul>
@@ -304,17 +304,17 @@
                 </div>
                 <div class="work-popup-overlay">
                   <div class="work-popup-content">
-                    <a href="javascript:void(0);" class="work-popup-close">Fechar</a>
+                    <a href="javascript:void(0);" class="work-popup-close" data-mlr-text>Fechar</a>
                     <div class="margin-b-30">
                       <h3 class="margin-b-5">Target.IT</h3>
-                      <span><strong>Analista Desenvolvedor PHP / FrontEnd</strong></span>
+                      <span><strong data-mlr-text>Analista Desenvolvedor PHP / FrontEnd</strong></span>
                       <br/>
-                      <span>30/01/2017 até 12/07/2017</span>
+                      <span data-mlr-text>30/01/2017 até 12/07/2017</span>
                     </div>
                     <div class="row">
                       <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                         <div class="margin-t-10 sm-margin-t-0">
-                          <p>Na Target eu tive um dos meus maiores desafios, entrei como desenvolvedor PHP porem no meio do processo tive que aprender a utilizar a plataforma cloud da SAP,o Hana e junto com o Hana tive a minha primeira experiência com Angular.</p>
+                          <p data-mlr-text>Na Target eu tive um dos meus maiores desafios, entrei como desenvolvedor PHP porem no meio do processo tive que aprender a utilizar a plataforma cloud da SAP,o Hana e junto com o Hana tive a minha primeira experiência com Angular.</p>
                           <ul class="list-inline work-popup-tag">
                             <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://www.targetit.com.br/pt/principal/">http://www.targetit.com.br</a></li>
                           </ul>
@@ -346,17 +346,17 @@
                   </div>
                   <div class="work-popup-overlay">
                     <div class="work-popup-content">
-                      <a href="javascript:void(0);" class="work-popup-close">Fechar</a>
+                      <a href="javascript:void(0);" class="work-popup-close" data-mlr-text>Fechar</a>
                       <div class="margin-b-30">
                         <h3 class="margin-b-5">Agenciou!</h3>
-                        <span class="badge badge-secondary">Freelance </span><span><strong>Desenvolvedor Front End</strong></span>
+                        <span class="badge badge-secondary">Freelance </span><span><strong data-mlr-text>Desenvolvedor Front End</strong></span>
                         <br/>
-                        <span>27/02/2018 até 12/03/2018</span>
+                        <span data-mlr-text>27/02/2018 até 12/03/2018</span>
                       </div>
                       <div class="row">
                         <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                           <div class="margin-t-10 sm-margin-t-0">
-                            <p>Criação do formulário 100% independente e customizavel em React para o pessoal da Agenciou.</p>
+                            <p data-mlr-text>Criação do formulário 100% independente e customizavel em React para o pessoal da Agenciou.</p>
                             <ul class="list-inline work-popup-tag">
                               <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://agenciou.com.br/">https://agenciou.com.br/</a></li>
                             </ul>
@@ -365,6 +365,7 @@
                         <div class="col-sm-4">
                           <div class="margin-t-10 sm-margin-t-0">
                             <p class="margin-b-5">React</p>
+                            <p class="margin-b-5">Redux</p>
                             <p class="margin-b-5">HTML5</p>
                             <p class="margin-b-5">CSS</p>
                             <p class="margin-b-5">Bootstrap</p>
@@ -384,18 +385,18 @@
                   </div>
                   <div class="work-popup-overlay">
                     <div class="work-popup-content">
-                      <a href="javascript:void(0);" class="work-popup-close">Fechar</a>
+                      <a href="javascript:void(0);" class="work-popup-close" data-mlr-text>Fechar</a>
                       <div class="margin-b-30">
                         <h3 class="margin-b-5">E-Aware Technologies</h3>
-                        <span><strong>Desenvolvedor Front End</strong></span>
+                        <span><strong data-mlr-text>Desenvolvedor Front End</strong></span>
                         <br/>
-                        <span>24/07/2017 até ...</span>
+                        <span data-mlr-text>24/07/2017 até ...</span>
                       </div>
                       <div class="row">
                         <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                           <div class="margin-t-10 sm-margin-t-0">
-                            <p>Meu primeiro desafio como único desenvolvedor de front end, além da barreira de aprender um framework novo.</p>
-                            <p>A criação do zero de um Dashboard em tempo real é sem dúvidas o meu maior feito.</p>
+                            <p data-mlr-text>Meu primeiro desafio como único desenvolvedor de front end, além da barreira de aprender um framework novo.</p>
+                            <p data-mlr-text>A criação do zero de um Dashboard em tempo real é sem dúvidas o meu maior feito.</p>
                             <ul class="list-inline work-popup-tag">
                               <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://www.eaware.com.br/">http://www.eaware.com.br/</a></li>
                             </ul>
@@ -404,11 +405,11 @@
                         <div class="col-sm-4">
                           <div class="margin-t-10 sm-margin-t-0">
                             <p class="margin-b-5">React</p>
+                            <p class="margin-b-5">Redux</p>
                             <p class="margin-b-5">Node</p>
                             <p class="margin-b-5">HTML5</p>
                             <p class="margin-b-5">CSS</p>
                             <p class="margin-b-5">Bootstrap</p>
-                            <p class="margin-b-5">Javascript</p>
                           </div>
                         </div>
                       </div>
@@ -432,16 +433,16 @@
         <div class="row">
           <div class="col-sm-3 sm-margin-b-30">
             <div class="text-right sm-text-left">
-              <h2 class="margin-b-0">Contato</h2>
+              <h2 class="margin-b-0" data-mlr-text>Contato</h2>
             </div>
           </div>
           <div class="col-sm-8 col-sm-offset-1">
             <div class="row">
               <div class="col-md-3 col-xs-6 md-margin-b-30">
-                <h5>Localização</h5> Viamão, RS
+                <h5 data-mlr-text>Localização</h5> Viamão, RS
               </div>
               <div class="col-md-3 col-xs-6 md-margin-b-30">
-                <h5>Telefone</h5> (51) 99679-9047
+                <h5 data-mlr-text>Telefone</h5> (51) 99679-9047
               </div>
               <div class="col-md-3 col-xs-6">
                 <h5>Email</h5>
@@ -491,13 +492,14 @@
   <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
   <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
   <!-- PAGE LEVEL SCRIPTS -->
+  <script src="js/language.js" type="text/javascript"></script>
   <script src="js/layout.js" type="text/javascript"></script>
   <script src="js/konami.js" type="text/javascript"></script>
   <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
   <script src="js/components/masonry.min.js" type="text/javascript"></script>
   <script src="js/components/wow.min.js" type="text/javascript"></script>
   <script>
-	var easter_egg = new Konami(function() { var audio = new Audio('cv.mp3'); audio.play();});
+	var easter_egg = new Konami(function() { var audio = new Audio('cv.mp3'); audio.volume = 0.1; audio.play();});
   </script>
 </body>
 <!-- END BODY -->

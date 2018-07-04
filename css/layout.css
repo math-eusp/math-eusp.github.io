@@ -141,6 +141,17 @@ h4 {
   text-decoration: none;
 }
 
+#languageSelector {
+  margin-top: 1.9em;
+  border-radius: 0.5em;
+}
+
+@media (max-width: 768px) {
+  #languageSelector{
+    margin-top: 0;
+    margin-left: 0.5em;
+  }
+}
 /*------------------------------------------------------------------
   	[Button]
 ------------------------------------------------------------------*/
