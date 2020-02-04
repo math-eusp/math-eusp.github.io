@@ -86,8 +86,8 @@ var MLstrings = [
         Portuguese: "Olá, tudo bom?"
     },
     {
-        English: "My name is Matheus Pereira, I work with Information Technology since 2010 and I have a degree in Systems Analysis and Development from IQ Schools and Colleges. In the middle of this journey I went through several experiences and I was able to acquire a lot of knowledge, I worked with VB.NET, C #, Java, PHP, FrontEnd in general, HanaXS besides some projects for knowledge in other languages.",
-        Portuguese: "Me chamo Matheus Pereira, trabalho com Técnologia da Informação desde 2010 e sou formado em Análise e Desenvolvimento de Sistemas pelas Escolas e Faculdades QI. No meio desta minha jornada passei por diversas experiências e pude adquirir muito conhecimento, trabalhei com VB.NET, C#, Java, PHP, FrontEnd em geral, HanaXS além de alguns projetos para conhecimento em outras linguagens."
+        English: "My name is Matheus Pereira, I'm 28 years old and work with Information Technology since 2010. I have a degree in Systems Analysis and Development from IQ Schools and Colleges. In the middle of this journey I went through several experiences and I was able to acquire a lot of knowledge, I worked with VB.NET, C #, Java, PHP, FrontEnd in general, HanaXS besides some projects for knowledge in other languages.",
+        Portuguese: "Me chamo Matheus Pereira, tenho 28 anos e trabalho com Técnologia da Informação desde 2010. Sou formado em Análise e Desenvolvimento de Sistemas pelas Escolas e Faculdades QI. No meio desta minha jornada passei por diversas experiências e pude adquirir muito conhecimento, trabalhei com VB.NET, C#, Java, PHP, FrontEnd em geral, HanaXS além de alguns projetos para conhecimento em outras linguagens."
     },
     {
         English: "About me",
@@ -154,8 +154,12 @@ var MLstrings = [
         Portuguese: "Na Target eu tive um dos meus maiores desafios, entrei como desenvolvedor PHP porem no meio do processo tive que aprender a utilizar a plataforma cloud da SAP,o Hana e junto com o Hana tive a minha primeira experiência com Angular."
     },
     {
-        English: "Front End Developer",
-        Portuguese: "Desenvolvedor Front End"
+        English: "Front End Engineer",
+        Portuguese: "Engenheiro Front End"
+    },
+    {
+        English: "Software Engineer",
+        Portuguese: "Engenheiro de Software"
     },
     {
         English: "Creation of the 100% independent and customizable React form for the Agenciou staff.",
@@ -168,6 +172,14 @@ var MLstrings = [
     {
         English: "The creation of a Dashboard in real time is undoubtedly my greatest achievement.",
         Portuguese: "A criação do zero de um Dashboard em tempo real é sem dúvidas o meu maior feito."
+    },
+    {
+        English: "I got an offer to work in an ambitious project in the crypto area, thats why I decided to get back to be an FullStack.",
+        Portuguese: "Recebi uma oportunidade de trabalhar em um projeto ambicioso no ramo de cripto e por isso resolvi voltar como FullStack."
+    },
+    {
+        English: "Since planing and arquitecting API's and the development of platforms that consume this API, until the programming of an \"ChatBank\" on Telegram.",
+        Portuguese: "Desde planejar e arquitetar API's e o desenvolvimento de plataformas que consumiam essas API's até o desenvolvimento de um \"ChatBank\" no Telegram."
     },
     {
         English: "Contact",
