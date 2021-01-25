@@ -86,8 +86,8 @@ var MLstrings = [
         Portuguese: "Olá, tudo bom?"
     },
     {
-        English: "My name is Matheus Pereira, I'm 28 years old and work with Information Technology since 2010. I have a degree in Systems Analysis and Development from IQ Schools and Colleges. In the middle of this journey I went through several experiences and I was able to acquire a lot of knowledge, I worked with VB.NET, C #, Java, PHP, FrontEnd in general, HanaXS besides some projects for knowledge in other languages.",
-        Portuguese: "Me chamo Matheus Pereira, tenho 28 anos e trabalho com Técnologia da Informação desde 2010. Sou formado em Análise e Desenvolvimento de Sistemas pelas Escolas e Faculdades QI. No meio desta minha jornada passei por diversas experiências e pude adquirir muito conhecimento, trabalhei com VB.NET, C#, Java, PHP, FrontEnd em geral, HanaXS além de alguns projetos para conhecimento em outras linguagens."
+        English: "My name is Matheus Pereira, I'm 29 years old and work with Information Technology since 2010. I have a degree in Systems Analysis and Development from IQ Schools and Colleges. In the middle of this journey I went through several experiences and I was able to acquire a lot of knowledge, I worked with VB.NET, C #, Java, PHP, FrontEnd in general, HanaXS besides some projects for knowledge in other languages.",
+        Portuguese: "Me chamo Matheus Pereira, tenho 29 anos e trabalho com Técnologia da Informação desde 2010. Sou formado em Análise e Desenvolvimento de Sistemas pelas Escolas e Faculdades QI. No meio desta minha jornada passei por diversas experiências e pude adquirir muito conhecimento, trabalhei com VB.NET, C#, Java, PHP, FrontEnd em geral, HanaXS além de alguns projetos para conhecimento em outras linguagens."
     },
     {
         English: "About me",
@@ -102,8 +102,8 @@ var MLstrings = [
         Portuguese: "2 anos programando .NET utilizando MVC e programação em camadas."
     },
     {
-        English: "2 years as a front-end developer giving maintenance and creating new functionalities",
-        Portuguese: "2 anos como programador front-end dando manutenção e desenvolvendo novas funcionalidades"
+        English: "2 and a half years as a front-end developer giving maintenance and creating new functionalities",
+        Portuguese: "2 anos e meio como programador front-end dando manutenção e desenvolvendo novas funcionalidades"
     },
     {
         English: "1 year of experience working with PHP and using the framework CakePHP",
@@ -180,6 +180,10 @@ var MLstrings = [
     {
         English: "Since planing and arquitecting API's and the development of platforms that consume this API, until the programming of an \"ChatBank\" on Telegram.",
         Portuguese: "Desde planejar e arquitetar API's e o desenvolvimento de plataformas que consumiam essas API's até o desenvolvimento de um \"ChatBank\" no Telegram."
+    },
+    {
+        English: "During project others opportunities showed and I could learn some React Native and work closer to mobile.",
+        Portuguese: "No decorrer do projeto outras oportunidades surgiram, como a de aprender React Native e trabalhar com mobile."
     },
     {
         English: "Contact",
